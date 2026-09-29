@@ -1,0 +1,11 @@
+﻿File Handling:
+- It is the process of creating, reading, updating and deleting the files that are stored on the disk.
+- System.IO, it contains classes for working with files, directories.
+- We have below list of classes available
+
+File: Static class class for one shot operations(read,wrtite,copy,delete,move)
+FileInfo: Instance based.
+Directory: Static class used for folder operations
+DirectoryInfo:Instance based.
+Path: Manipluting path strings.
+Stream: It is used to Read/Write the text efficiently line by line, StreamReader and StreamWriter etc.

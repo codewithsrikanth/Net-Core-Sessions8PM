@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="SqlNotes.txt" />
+  </Folder>
+  <Project Path="CAAbstractClasses/CAAbstractClasses.csproj" Id="36a7475f-56f9-48fe-a08b-59d6425d808b" />
+  <Project Path="CAAccessModifiers1/CAAccessModifiers1.csproj" Id="da258b67-8749-4771-ab1b-09ed8d5ddd8a" />
+  <Project Path="CAAccessModifiers2/CAAccessModifiers2.csproj" Id="32c13b21-be5b-4078-85eb-0e683492a728" />
+  <Project Path="CABasics/CABasics.csproj" Id="79fdcb5b-0f2e-4490-bda1-f8e97229d0db" />
+  <Project Path="CADelegates/CADelegates.csproj" Id="eba3b1c7-28c5-4bc2-9794-f67c2f72e4a2" />
+  <Project Path="CAExceptionHandling/CAExceptionHandling.csproj" Id="06536412-5a14-4279-835a-5911357e09e0" />
+  <Project Path="CAFileHandling/CAFileHandling.csproj" Id="aecfb28c-3161-4037-a789-995dd9370efc" />
+  <Project Path="CAGenerics/CAGenerics.csproj" Id="97a414d9-d2f7-45a0-bff2-d490a80eb602" />
+  <Project Path="CAInheritence/CAInheritence.csproj" Id="a657c168-fa4f-41b8-8970-73424eef72ee" />
+  <Project Path="CALoopsExamples/CALoopsExamples.csproj" Id="24f483e7-cb16-4c54-a157-da10f6a0ad9b" />
+  <Project Path="CAMultiThreadding/CAMultiThreadding.csproj" Id="c6a1bfc1-aa0b-4573-9d7f-38b38198d827" />
+  <Project Path="CAOOPS/CAOOPS.csproj" Id="1bb83cb0-3d34-4a1f-a3ce-1a002d66b762" />
+  <Project Path="CAProperties/CAProperties.csproj" Id="5e29c839-ba9f-4ac9-bbb3-9ccd2cc4287e" />
+  <Project Path="SealedClassesAndMethod/SealedClassesAndMethod.csproj" Id="6ba07d6a-cc74-4239-a3a0-d93804c9a5d9" />
+</Solution>

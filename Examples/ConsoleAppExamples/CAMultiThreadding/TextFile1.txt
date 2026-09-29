@@ -1,0 +1,25 @@
+﻿Multi thredding:
+- Creating multiple threads to execute multiple operations in parallel.
+Process: An running instance of a program with its own memory space
+Thread: A unit of execution inside the process; a process can have many threads
+- Every program is creating by default a thread known as Main thread.
+- Concurency: Multiple tasks making progress during overlap the time periods. If any task is taking longer than expected to excute it will block the further execution as well. 
+- Parallelism: Mulitple tasks executed at the same instance of the time
+
+Thread Pool: 
+- It maints a pool of pre-created, reusable worker threads managed by the CLR, to avoid the cost of creating a new thread everytime.
+
+Note: In latest C#.Net, we rarely using Thread and ThreadPool. 
+
+TPL(Task Parallel Library): Which is built on top of ThreadPool but is much easier to work with and composes cleanly with async/await.
+
+Async and Await: 
+- Method is marked with async keyword
+- return type is Task or Task<T> or void (event handling)
+- Inside, we use await on an awaitable operations.
+
+async Task<string> GetGreetingAsync()
+{
+  await Task.Delay(10000);
+  return "Hello World";
+}

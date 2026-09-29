@@ -1,0 +1,1155 @@
+﻿Sample Project:
+
+=================================
+       WELCOME TO AMAZON
+=================================
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 1
+
+Enter quantity: 1
+
+1 Laptop added to cart.
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 2
+
+Enter quantity: 2
+
+2 Mouse added to cart.
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 0
+
+=================================
+          SHOPPING BILL
+=================================
+
+Laptop x 1 = ₹55000
+Mouse x 2 = ₹1600
+---------------------------------
+Subtotal = ₹56600
+Discount = ₹5660
+GST (18%) = ₹9170.8
+---------------------------------
+Final Amount = ₹50110.8
+
+Thank you for shopping!
+
+Concepts that are used here:
+- Input and Out Statements
+- Arrays
+- Operators
+- Conditional Statements (If, if else etc.)
+- Loops
+
+             START
+               ↓
+       Display Products
+               ↓
+        User selects item
+               ↓
+       Is selection valid?
+          /          \
+        NO            YES
+        ↓              ↓
+     Error         Enter Quantity
+        ↓               ↓
+     START         Add to Cart
+                       ↓
+                Continue Shopping?
+                  /          \
+                YES           NO
+                ↓              ↓
+        Display Products    Calculate Bill
+                               ↓
+                           Subtotal
+                               ↓
+                            Discount
+                               ↓
+                              GST
+                               ↓
+                         Final Amount
+                               ↓
+                              End
+Task: Bank Example
+		- AccountNumber
+		- AccountHolderName
+		- Balance
+		
+DisplayAccountDetails()
+Deposit(amount)
+GetBalance()	- return balance
+Withdraw(amount)
+IsEligibleLoan()	- balance >= 100000
+
+Deposit amount must be > 0
+Withdrawal amount must be > 0
+Withdrawal amount cannot be greater than balance
+Loan eligibility:
+Balance >= 100,000 → Eligible
+Balance < 100,000  → Not Eligible
+
+
+Access Modifier	Same Namespace/Project	Another Namespace/Project
+	Same Class	Derived class	Non-Derived Class	Derived Class	Non-Derived Class
+Private	Yes	No	No	No	No
+Protected	Yes	Yes	No	Yes	No
+Internal	Yes	Yes	Yes	No	No
+Protected internal	Yes	Yes	Yes	Yes	No
+Private protected	Yes	Yes	No	No	No
+public	Yes	Yes	Yes	Yes	Yes
+
+1.	Based on above table explain each access modifier and its accessibility levels
+2.	What is the default access modifiers for class and its members.
+3.	For a class what are all the access modifiers can be provided.
+
+Full Stack .Net Core With AI@ 8:00 PM (IST)  By Mr. Srikanth Rallabandi From 23rd July ( New link) 
+Meeting Link: http://zoom.us/j/83706868517
+Password: 459945
+-----------------------------------------------------------------------------Software: A software which can reduse the human efforts and also gives accurate and speed results.
+
+Programming Language: A language which can understand by the system, it is used to provide the instructions to the software application, how it works
+
+
+What are the different types of applications:
+- Desktop
+- Web Apps (80%)
+- Mobile Apps
+- Cloud Apps
+- Games
+- AI Apps
+- IoT Apps (Smart watch, Smart TV, smart fridge, washing machine etc.) etc. etc.
+
+
+Standalone : Application can install in one machine and can be used by single user.
+Distributed apps : One can install and everyone else can use.
+
+
+Client(Browser) => www.amazon.in => Server(System where the application has installed)
+
+
+- C#.Net (Begineer, Intermediate - OOPS, Expert)
+- ASP.Net Core - Web & API
+- Application => Angular + Web API core + C# + EF Core
+
+- Microservices
+- Cloud(Azure)
+
+
+UI: HTML, CSS, JS, Angular
+--------------------------------------------------------------------------------------------------
+.Net:
+-> .Net is a framework
+-> Free & Open Source product from Microsoft
+-> By using .Net we can build any type of application.
+-> It is fully equipped and we don't need to start from scrach.
+-> .Net = Runtime (Which is used to run the applications) + A Huge Library (Readymade code)
+
+-> System understand only binary language(1 & 0).   
+-> A compiler which is used to checks the syntax error,and once if the code is fine then it will conver into another form of code.
+-> The application that we built by using one platform(OS), if it runs only on that OS i.e known as platform dependent.
+-> The application that we built by using one platform(OS), if it runs in any OS is known as platform indepedency.
+-> Language Interoperability: It is the process of consuming one code into another language.
+
+
+C/C++	=> 	Compiler	=>	Binary code => System understands => Platform Depedendent
+Java 	=>	Compiler	=>	Byte Code	=>	Windows JVM	=> Binary Code
+										=>	Mac JVM		=> Binary Code
+										
+C#.Net	=>	Compiler(Roslyn)  => MSIL(Assembly code)	=>	CLR(Runtime Engine)	=> Binary code
+
+CLR: 
+-> It is a runtime which is used to run the applications.
+-> It contains 4 components
+	->	CLS(Common Language Specification)	- Language Interoperability
+	-> 	CTS(Common Type System) - Datatypes
+	->  GC (Garbage Collector) - Cleanup the memory
+	->	JIT(Just In Time) Compiler 
+
+
+Datatype: It is used to decide what type of value a variable can hold
+Variable: A variable is a named memory location
+
+string x ="Welcome";
+int age = 36;
+
+Stack Memory		=>	Continues memory location
+Heap Memory			=>	Random Memory location
+
+Garbage Collector:
+- Every time when we run the applications, internally it creates the objects.
+- Every object will store on RAM memory(Heap memory).
+- It is a tool/component of CLR, it is used to clean the un used/unneccesary objects from the memory. it will invoke automatically only when the Heap memory is full.
+- GC.Collect();
+
+JIT: Just in time
+- MSIL is already a pre-compiled code, and as JIT no need to check for the compilation errors, so that it is just to convert the MSIL into Native code.
+
+Setup the Environment:
+-> .Net Framework = No seperate installation is required.
+-> .Net Core => Install the SDK(Software Development Kit)
+-> IDE (Visual Studio) - Windows
+-> Visual Studio Code(VS Code) - Windows/Mac OS
+--------------------------------------------------------------------------------------------------
+C#.Net => Console App => It is not having any GUI features, it works with CUI(Command User Interface)
+
+DLL:
+- Dynamic Link Library
+- It is not having the entry point (Main())
+- After compilation this file will generated and it contains IL
+- It is required .Net Runtime to run
+
+EXE:
+- It is an executable file
+- It contains Main()
+- It can start indepedently.
+
+Note: DLL Never runs, it needs some executable file to execute.
+
+> dotnet run
+-----------------------------------------------------------------------------
+.Net = CLR(Runtime) + Libraries(Assembly) => It is a pre-defined code
+Namespace:
+- A namespace is a collection of classes.
+- It is mainly used to avoid the naming collission between the classnames.
+- Microsoft has already created lot of classes, to avoid the name ambiguity we use the namespace
+- It is a logical name, there is no physical existence.
+
+- If microsoft created some namespaces then we call it as System-Defined, those are used to access the pre-defined classes.
+- To use the system-defined namespace we use "using" statements
+- When we create a project, the name of the project is the namespace name i.e. User-Defined
+
+- A class is a collection of methods and properties
+- Every program execution start from Main() 
+Task-1: Why Main() is always starts first, apart from Main() do we have any code is executed.
+
+Input/Output Statements:
+- All the I/O methods for console application are available in a class i.e. "Console", this console class is avilable in a namespace "System"
+- Write(), WriteLine(), Read() and ReadLine() etc.
+
+- Write() will print the output and control is in sameline, so next staments will display n sameline, but WriteLine() will print the statements and moves to the new/next line
+- Read() and ReadLine() are used to take input from the user.
+
+datatype varible =  value;
+
+Read():
+- It read single charecter.
+- It reads ASCII value rather than actual value.
+- It reads in int format values.
+
+ReadLine()
+- It read either single or multiple
+- Exact value entered by the user
+- It reads in string format.
+-----------------------------------------------------------------------------
+- A solution is a collection of projects
+- A project is a collection of class files
+
+Example1:
+Enter your name: 
+Srikanth
+Enter your age:
+37
+Welcome Srikanth and your age is 37
+Type casting: Converting one datatype of data into another datatype.
+- Implicit type casting : Automatic/Defualt : int -> double, shortInt -> Int etc.
+- Explicit type casting : It is used to convert by using different methods/machanisms.
+		- C++ Type casting : It is used to convert value to value or reference to reference type.
+		- Parse() : It is used to convert string to any value type
+			targetDatatype.Parse(value);
+		- ToString(); - It is used to convert any value into string type
+		- Convert class : It is used to convert value to ref and ref to value
+
+Example2:
+Enter your name: 
+Srikanth
+Enter Marks: 
+70
+65
+69
+Hello Srikanth your total marks are: 204 
+-----------------------------------------------------------------------------------------------
+Conditional Statements:
+- Based on the condition, if we want to execute the logic
+- These are used to make decision in a program.
+- Example:
+	- simple if
+	- if else
+	- nested if else
+	- if else ladder
+	- switch
+	
+Enter First Number: 
+34
+Enter Operator:
+*
+Enter Second Number:
+45
+
+Result is:1530
+--------------------------------------------------------------------------------------------------
+Debugging: Identify the route cause of the issue.
+- Line by line execution. We use breakpoint (Pause the execution)
+
+Story: 
+Enter employee exp: 12
+Enter Performence rating (1-5): 4
+Enter Attendence: 98
+
+Promotion Approved
+Bonus: 100000
+
+Exp     	Rating         Attendence
+>=10        >=5               >=95			=> Promotion and 100000
+>=5         >=4               >=90			=> Senior Employee and 50000
+>=3         >=3               >=85			=> Performence Bonus and 30000
+							  < 75			=>	Warning - Low Attendence and No Bonus
+							  
+							  
+Switch Statements:
+
+switch(arg)
+{
+    case 1:
+	   statements;
+	   break;
+	case 2:
+	   statements;
+	   break;
+	case 3:
+	   statements;
+	   break;
+	   :
+	   :
+	   :
+	default:
+	   statements;
+	   break;
+}
+
+- In side the switch what datatype of argument we are using cases also must follow that type
+- Every case ends with break.
+- Every switch statemt must have default case and also it should ends with break.
+
+
+
+Task-1: Bank Loan Eligibility
+A bank approves loans based on the following conditions:
+Age must be between 21 and 60.
+Monthly salary must be at least ₹30,000.
+Credit score:
+800+ → Eligible for ₹50 Lakhs
+750–799 → Eligible for ₹25 Lakhs
+700–749 → Eligible for ₹10 Lakhs
+Below 700 → Rejected
+If the applicant already has an active loan and salary is below ₹50,000 → Reject.
+
+Input:
+Age
+Salary
+Credit Score
+Existing Loan (Yes/No)
+
+Output:
+Loan Status
+Maximum Loan Amount
+Reason (if rejected)
+---------------------------------------------------------------------------------------
+Task-2: IncomeTax calculator
+Input:
+Annual Income
+Age
+Investments
+
+Rules:
+Investments up to ₹1,50,000 are tax exempt.
+Taxable Income = Income − Investments
+Tax Slabs
+0 - 3 Lakhs      -> 0%
+3 - 6 Lakhs      -> 5%
+6 - 9 Lakhs      -> 10%
+9 - 12 Lakhs     -> 15%
+Above 12 Lakhs   -> 20%
+
+Senior citizens (>60 years) Additional exemption ₹50,000.
+
+Output:
+Taxable Income
+Tax Amount
+-------------------------------------------------------------------------------------------------------------------------------------
+Loops: These used to execute the statements repetedly.
+- for
+- while
+- do while
+- Nested Loops
+- foreach loop
+
+for(initilazation;condition;iteration)
+{
+   //statements
+}
+
+while(condition)
+{
+statements;
+}
+Note: Whenever we know the range go with for loop and we don't know the range while loop.
+Example:
+datatbase => 500 => 1(Start) to 500(End) => for loop
+database => get the records => while
+
+Enter any number: 12345
+reverse number is: 54321
+Assignments:
+Factorial Using while
+Keep Reading Input Until User Types "exit"
+Find the Number of Digits: 1234567 => 7
+
+do while:
+-> First time without checking condition it execute the statements, and next onwards it works based on the condition.
+
+do
+{
+  //statements
+}while(condition)
+
+Nested Loops: a loop within another loop
+
+*
+* *
+* * *
+* * * *
+-------------------------------------------------------------------------------------------------------------------------------------
+Arrays:
+- It is a variable which can hold multiple values, and also it comes with type safety.
+- Array can store or retrive the values based on index and always it start from 0
+- Syntax: datatype[] arrayName = new datatype[size];
+- Example: int[] ar = new int[5];
+
+foreach: It basically derived from a design pattern i.e. iterator
+
+foreach(datatype variable in collection)
+{
+	//statements
+}
+
+
+Types of array:
+1. Single Dimentional: If an array is having single row or column
+2. Multi Dimentional: If an array is having mulitple rows or columns
+3. Jagged : It is collection of array. An array which containes each element is an array
+
+
+Take the values from the user for Multi dimentional array and then display
+
+Employess
+	- IT
+	- HR
+	- Finance
+	
+- In C#.Net Array is a class, which is available in System namespace. 
+- This class is having different methods like Sort(), Search(), Copy(), Clear() etc.
+
+Sample Project:
+
+=================================
+       WELCOME TO AMAZON
+=================================
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 1
+
+Enter quantity: 1
+
+1 Laptop added to cart.
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 2
+
+Enter quantity: 2
+
+2 Mouse added to cart.
+
+PRODUCTS
+---------------------------------
+1. Laptop - ₹55000
+2. Mouse - ₹800
+3. Keyboard - ₹1500
+4. Headphones - ₹2500
+5. USB Cable - ₹500
+0. Checkout
+
+Select product number: 0
+
+=================================
+          SHOPPING BILL
+=================================
+
+Laptop x 1 = ₹55000
+Mouse x 2 = ₹1600
+---------------------------------
+Subtotal = ₹56600
+Discount = ₹5660
+GST (18%) = ₹9170.8
+---------------------------------
+Final Amount = ₹50110.8
+
+Thank you for shopping!
+
+Concepts that are used here:
+- Input and Output Statements
+- Arrays
+- Operators
+- Conditional Statements (If, if else etc.)
+- Loops
+
+             START
+               ↓
+       Display Products
+               ↓
+        User selects item
+               ↓
+       Is selection valid?
+          /          \
+        NO            YES
+        ↓              ↓
+     Error         Enter Quantity
+        ↓               ↓
+     START         Add to Cart
+                       ↓
+                Continue Shopping?
+                  /          \
+                YES           NO
+                ↓              ↓
+        Display Products    Calculate Bill
+                               ↓
+                           Subtotal
+                               ↓
+                            Discount
+                               ↓
+                              GST
+                               ↓
+                         Final Amount
+                               ↓
+                              END
+--------------------------------------------------------------------------------------------------------------------------------------
+Procedure Oriented Programming: It is nothing the whole application logic is around the functions/procedures.
+- Example: C, PASCAL etc.
+- Disadvantages: No Reusability, Security
+
+OOPS: It is a concept, it is mainly used to provide security and reusability for the code/logic.
+		- Encapsulation : Binding the data members along with member functions - PROTECT
+		- Abstraction : Hiding the implementation but provide the services - HIDE
+		- Polymorphism : One to many forms - DIFFERENT BEHAVIOUR
+		- Inheritence : It is the process of aquiring the properties of one class into another - REUSABILITY
+
+Class: 
+- A class is a logical represenation of data.
+- A class is a collection similar members.
+- Class = Data Members(Used to store/transfer the data) + Member functions(Write the logic)
+			- Variables											- Functions/Methods
+			- Properties										- Constructors
+			- Indexers											- Destructors
+																- Events
+- A class is a user-defined datatype, and object is the variable of class type.
+- To make the class physical or to add the memory to the class we use Objects
+- An object is the physcial memory of the class.
+
+Method and Functions: These are used to execute the code logic.
+- If the return type is void then it is a method.
+- If the return type is datatype then it is a function and it is return a value to the calling place.
+
+Task: Bank Example
+		- AccountNumber
+		- AccountHolderName
+		- Balance
+		
+DisplayAccountDetails()
+Deposit(amount)
+GetBalance()	- return balance
+Withdraw(amount)
+IsEligibleLoan()	- balance >= 100000
+
+Deposit amount must be > 0
+Withdrawal amount must be > 0
+Withdrawal amount cannot be greater than balance
+Loan eligibility:
+Balance >= 100,000 → Eligible
+Balance < 100,000  → Not Eligible
+--------------------------------------------------------------------------------------------------------------------------------------
+Constructors:
+- It is a special method which will invoked automatically when an object of the class is created.
+- It is used to initilize the values to the members of the class.
+
+Rules:
+- Same name as classname.
+- It doesn't have return types even void also.
+- Called automatically via "new" keyword.
+- If a class is not having any user-defined constructor system/program will create it's own constructor.
+
+Types of constructors:
+
+- Default : Here we don't have parameters.
+	- User-Defined
+	- System-Defined
+- Parameterised: with parameters.
+Note: A class can have any number of constructors.It must be overloaded. It must be differ in number of parameters, type of parameters or order of parameters.This is also known as Constructor Overloading.
+
+Constructor Chaining : this(...) is constructor chaining — avoids duplicating initialization logic across constructors. This is a favorite "write clean code"
+
+- Copy:
+	- A constructor used to copy one class data into another class.
+	- We can create copy constructor with atleast one parameter of class type.
+---------------------------------------------------------------------------------------------------------
+- Static Constructor:
+	- Static means something belongs to the type itself, not any individual object created from that type.
+	- Static members can't be called with instances/objects.
+	- It is maintianed a single memory across the class level not the object level.
+	- A constructor which will be created with static keyword, and it is initialize only static members.
+	- Static constructors will not allowed to have the access modifiers.
+	- A static constructor must be parameter less.
+- Private Contructor:
+	- A constructor which will be created with private access modifier.
+	- It is used to stop to create the object of the class from one to another.
+	- singleton design pattern.
+
+
+Destructors:
+- It is a special method that runs when the object is about to be destoryed, it is mainly used to deallocate the memory.
+
+Rules:
+- It start with ~
+- No access modfiers, no parameters, no return types.
+- can't be overloaded - so we can have only one.
+- It automatically execute when the class unload from memory.
+---------------------------------------------------------------------------------------------------------Access Modifiers:
+- It is mainly used to provide the accessability of a class and it's members.
+- In C#.Net we have 6 types of access modifiers.
+	- private
+	- protected
+	- internal
+	- protected internal
+	- private protected
+	- public
+	
+Inheritence:
+- It is the process of accessing the members of one class into another class.
+- It is mainly used for reusability.
+- parent/base/super class => It provides the members to child class.
+- child/derived/sub class => It aquires the members of the parent classes.
+
+Types of Inheritence:
+	- Single	=>	Single base class
+		- MultiLevel => It is a chain of inheritences => A:B:C:D....
+		- Heirarichal => 
+	- Multiple	=> 	Mulitple base classes.
+		- Hybrid
+
+Constructor Chaining: It is the process of calling parent class constructor in child class. Todo that we use base keyword.
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

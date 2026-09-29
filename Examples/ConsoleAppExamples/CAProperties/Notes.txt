@@ -1,0 +1,55 @@
+﻿Library Management System:
+
+Interface IBorrowable
+	- BorrowBook(Book book)
+	- ReturnBook(Book book)
+
+Abstract Class - Person
+	- ID		=>	Accessible only within the class
+	- Name		=>	Accessible in same + Derived class
+	- Age		=>	Accessible anywhere
+	- Constructor => Parameterised
+	- ShowAge()
+	- public abstract void Introduce();
+
+Class => Student: IBorrowable and Person
+			- borrowedBooks => string[]
+			- borrowedcount => int
+			- Constrcutor
+		
+
+Class => Staff : IBorrowable and Person
+
+Output:
+===== Creating Objects =====
+Person object created: Ravi
+Person object created: Anita
+
+Total books in City Central Library: 3
+
+===== Indexer Access =====
+By position [0]: C# in Depth
+By title: Robert C. Martin
+
+===== Abstract Class + Inheritance =====
+Hi, I'm Ravi, a student of Computer Science.
+Hello, I'm Anita from the IT department.
+Ravi is 21 years old.
+
+===== Interface Implementation (Borrowing) =====
+Ravi borrowed 'C# in Depth'.
+Ravi borrowed 'Clean Code'.
+Anita (Staff) borrowed 'Design Patterns'.
+Ravi's borrowed books:
+ - C# in Depth
+ - Clean Code
+
+===== Trying to borrow an unavailable book =====
+'C# in Depth' is currently unavailable.
+
+===== Returning a Book =====
+Ravi returned 'C# in Depth'.
+Ravi's borrowed books:
+ - Clean Code
+
+===== Program Ending (destructors will run during garbage collection) =====

@@ -1,0 +1,13 @@
+﻿Exception Handling:
+- An exception is nothing but runtime error.
+- When an exception comes, then it terminate the program execution/application execution.
+- We must have to handle them.
+- For that in C#.Net we have lot of execption classes.
+		- Logical Handling
+		- try catch
+- Exception handling machanisms never fix the exception.
+Custom Exception Handling:
+- We can create our own custom exception classes and display our own custom error message
+Rules: 
+- Custom exception class must be inherited from Exception base class
+- Every custom execption class should ends with Exception keyword.

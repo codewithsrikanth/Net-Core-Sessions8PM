@@ -1,0 +1,25 @@
+﻿Generics:
+- Generics are mainly used for typesafety.
+- Reuability and Typesafety.
+
+
+Collections:
+- A collection in C#.Net is a class.
+- Dynamic resize, it won't recreate objects for every modifications.
+- It is mainly used to store multiple values.
+- There are two types
+	- Non-Generic Collections	:	System.Collections;	=>	Stack,Queue,ArrayList etc.	=>	No Typesafety
+			- Hashtable
+			- SortedList
+			- BitArray
+	- Generic Collections		:	Syste.Collections.Generic => Stack<>,Queue<>,List<>, Dictionary<key,value> => Typesafety.
+	
+
+int x = 10;string y = "Srikanth";		//We can have single value
+int[] x = {10,20,30,40}; string[] y = {"Srikanth","Ramesh"};
+
+Arrays: 
+- Multiple values
+- Type safety.
+- Size is fixed is the limitation.
+- For every new modification it created a new array.

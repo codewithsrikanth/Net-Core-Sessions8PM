@@ -1,0 +1,22 @@
+﻿@using MyMVCApp.Models
+@model List<Employee>
+<h1>Welcome to ASP.Net MVC Core App</h1>
+<hr />
+
+<table border="1" align="center">
+    <tr>
+        <th>EmpID</th>
+        <th>EmpName</th>
+        <th>Salary</th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmpID</td>
+                <td>@item.EmpName</td>
+                <td>@item.Salary</td>
+            </tr>
+        }
+    }
+</table>

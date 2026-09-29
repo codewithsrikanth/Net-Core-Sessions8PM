@@ -1,0 +1,24 @@
+﻿Sealed Classes and Methods:
+- A sealed class can't be inherited. It is the last stop in the inheritence chain.
+- Once you mark a class as sealed, no other class can derived that class.
+- It is mainly used for security purpose. ex: TaxCalculation, PaymentGateway
+- As it is a sealed class, the JIT compiler can avoid virtual table lookups.
+- Examples: System.String, ADO.Net Classes etc.
+- A selaed class can't be an abstract class, and also we can't have abstract methods
+- Sealed Method: A method for which it is not possible to override the implementation.
+- A sealed class can't have virtual methods also.
+- For sealed classes we can create objects.
+
+
+Partial Classes and methods:
+- A class for which the implementation is available in multiple files.
+- Mutiple developers work on different concerns of the same class.
+- A partial method is declared in one part of the partial class and optinally implemented in another.
+- Till C#.Net 8.0 version partial methods are not suported access modifiers and return types.
+- After C# 9.0 it supports both (access modifier and return types)
+
+
+Static class and methods:
+- A class can't be instantiated, can't be inherited and can contains only static members.
+- These classes loaded once by the CLR and shared across entire application.
+- Examples: connection strings, application settings etc.

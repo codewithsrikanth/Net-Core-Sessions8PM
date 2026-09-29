@@ -1,0 +1,14 @@
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\bin\Debug\net10.0\CAFirst.exe
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\bin\Debug\net10.0\CAFirst.deps.json
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\bin\Debug\net10.0\CAFirst.runtimeconfig.json
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\bin\Debug\net10.0\CAFirst.dll
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\bin\Debug\net10.0\CAFirst.pdb
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.AssemblyInfoInputs.cache
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.AssemblyInfo.cs
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.csproj.CoreCompileInputs.cache
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.dll
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\refint\CAFirst.dll
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.pdb
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\CAFirst.genruntimeconfig.cache
+D:\.Net Core Sessions\Examples\CAFirst\CAFirst\obj\Debug\net10.0\ref\CAFirst.dll

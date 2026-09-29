@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|d:\\.net core sessions\\examples\\mymvcapp\\mymvcapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|solutionrelative:mymvcapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|d:\\.net core sessions\\examples\\mymvcapp\\mymvcapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|solutionrelative:mymvcapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|d:\\.net core sessions\\examples\\mymvcapp\\mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|solutionrelative:mymvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|d:\\.net core sessions\\examples\\mymvcapp\\mymvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584E1453-4B6A-4089-8C21-DB7DA5225D1D}|MyMVCApp\\MyMVCApp.csproj|solutionrelative:mymvcapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyMVCApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyMVCApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T15:44:03.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyMVCApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyMVCApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T15:40:52.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MyMVCApp\\Models\\Employee.cs",
+              "ToolTip": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Models\\Employee.cs",
+              "RelativeToolTip": "MyMVCApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T15:37:20.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyMVCApp\\Program.cs",
+              "ToolTip": "D:\\.Net Core Sessions\\Examples\\MyMVCApp\\MyMVCApp\\Program.cs",
+              "RelativeToolTip": "MyMVCApp\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T15:16:22.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

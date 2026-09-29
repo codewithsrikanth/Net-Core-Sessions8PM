@@ -1,0 +1,73 @@
+create database SchoolDB
+go
+USE SchoolDB
+go
+
+CREATE TABLE Students(
+StudentId INT IDENTITY(1,1) primary key,
+FullName nvarchar(100) not null,
+Email nvarchar(150) not null,
+EnrollDate DateTime2 Default GetDate()
+);
+
+create table Courses(
+CourseId int identity(1,1) primary key,
+Title nvarchar(100) not null);
+
+create table Enrollments(
+EnrollmentId int Identity(1,1) primary key,
+StudentId int not null FOREIGN KEY references Students(StudentId),
+CourseId int not null foreign key references Courses(CourseId))
+
+ALTER TABLE Students ADD PhoneNumber NVarchar(15) null
+
+
+INSERT INTO Students (FullName,Email) VALUES
+('Srikanth','Srikanth@gmail.com'),
+('Raju','Raju@gmail.com'),
+('Ramesh','Ramesh@gmail.com'),
+('Sai','Sai@gmail.com')
+
+INSERT INTO Courses (Title) Values ('C#.Net'),('ASP.Net Core'),('Sql Server'),('Micro Services')
+
+
+Select StudentId, FullName from Students
+
+Select * from Students
+
+Select DISTINCT fullname from Students
+
+select * from Students where FullName LIKE 'S%'
+
+select * from students where StudentId IN (1,3)
+
+select * from Students where EnrollDate between '2026-09-08' AND '2026-09-07'
+
+select * from Students where PhoneNumber is NULL
+
+select * from Students Order By FullName ASC
+
+select * from Students Order By EnrollDate DESC, FullName ASC
+
+select * from Enrollments
+select * from Students
+select * from Courses
+
+
+--INSERT INTO Enrollments (StudentId,CourseId) Values (1,1),(1,2),(2,2),(3,3)
+
+select s.FullName, c.Title
+from Students s
+Inner join Enrollments e ON s.StudentId = e.StudentId
+INNER join Courses c ON e.CourseId = c.CourseId
+
+select s.Fullname,c.Title
+from Students s
+LEFT JOIN Enrollments e ON s.StudentId = e.StudentId
+LEFT JOIN Courses c on e.CourseId = c.courseId
+
+
+
+
+
+
